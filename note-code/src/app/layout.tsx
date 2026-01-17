@@ -3,28 +3,25 @@ import { Outfit } from "next/font/google";
 import "./globals.css";
 
 const outfitSans = Outfit({
-  variable: "--font-outfit-sans",
-  subsets: ["latin"],
+	subsets: ["latin"],
+	weight: ["400", "500", "600", "700", "800", "900"],
 });
 
-
 export const metadata: Metadata = {
-  title: "noteCode",
-  description: "Create & Share Your Code Easily.",
+	title: "noteCode",
+	description: "Create & Share Your Code Easily.",
 };
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body
-        className={`${outfitSans.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body className={`${outfitSans.className} antialiased`}>
+				{children}
+			</body>
+		</html>
+	);
 }
