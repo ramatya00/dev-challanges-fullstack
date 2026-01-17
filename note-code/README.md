@@ -12,7 +12,7 @@
 	  Demo
 	</a>
 	<span> | </span>
-	<a href="https://github.com/ramatya00/dev-challanges-fullstack-app/tree/main/note-code">
+	<a href="https://github.com/ramatya00/dev-challanges-fullstack/tree/main/note-code">
 	  Solution
 	</a>
 	<span> | </span>
