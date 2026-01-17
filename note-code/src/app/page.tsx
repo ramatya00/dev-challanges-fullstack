@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import CodeEditor from "@/components/code-snippet";
 import Image from "next/image";
 
