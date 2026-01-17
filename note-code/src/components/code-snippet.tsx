@@ -32,7 +32,7 @@ export default function CodeEditor() {
 
 	const [code, setCode] = useState(DEFAULT_HTML);
 	const [language, setLanguage] = useState("html");
-	const [theme, setTheme] = useState("vs-dark");
+	const [theme, setTheme] = useState("light");
 	const [isShared, setIsShared] = useState(false);
 	const [isModified, setIsModified] = useState(false);
 	const [isLoading, setIsLoading] = useState(false);
